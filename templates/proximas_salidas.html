@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}Próximas Salidas{% endblock %}
+
+{% block content %}
+<main class="main">
+        <h2 class="titulo_paginas">PRÓXIMAS SALIDAS</h2>
+        <div class="contenido_salidas">
+            <!-- <div class="proximas_salidas">
+                <div class=" imagenes_salidas yuspe" alt="Foto de rio Yuspe">
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <a class="boton_salidas" href="{{url_for("yuspe")}}">
+                        Rio Yuspe
+                    </a>
+                </div>
+            </div>
+            <div class="proximas_salidas">
+                <div class="imagenes_salidas gigantes" alt="Foto de gigantes">
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <p class="texto_proximas_salidas"></p>
+                    <a class="boton_salidas" href="{{url_for("gigantes")}}">
+                        Los Gigantes
+                    </a>
+                </div>
+            </div>
+            <div class="proximas_salidas">
+                <div class="imagenes_salidas la_cumbrecita" alt="Foto de La Cumbrecita">
+                    
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <p class="texto_proximas_salidas"></p>
+                    <a class="boton_salidas" href="{{url_for("cumbrecita")}}">
+                        La Cumbrecita
+                    </a>
+                </div>
+            </div>
+            <div class="proximas_salidas">
+                <div class="imagenes_salidas cierras_chicas" alt="Foto de cierras_chicas">
+                    
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <p class="texto_proximas_salidas"></p>
+                    <a class="boton_salidas" href="{{url_for("sierras_chicas")}}">
+                        Sierras Chicas
+                    </a>
+                </div>
+            </div> -->
+            <div class="proximas_salidas">
+                <div class="imagenes_salidas champaqui" alt="Foto del Cerro Champaquí">
+                    <img class="champa" src="../static/img/champaqui-instagram-2.jpg" alt="">
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <a class="boton_salidas" href="{{url_for("cerro_champaqui")}}">
+                        Cerro Champaquí
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="proximas_salidas">
+                <div class="imagenes_salidas personalizadas" alt="Foto de salidas personalizadas">
+                    
+                </div>
+                <div class="contenido_proximas_salidas">
+                    <p class="texto_proximas_salidas"></p>
+                    <a class="boton_salidas" href="{{url_for("personalizado")}}">
+                        Salidas Personalizadas
+                    </a>
+                </div>
+            </div> -->
+            
+        </div>
+</main>
+{% endblock %}

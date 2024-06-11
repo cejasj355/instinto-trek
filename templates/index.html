@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+    <main class="main">
+        <h2 class="titulo_paginas">¡BIENVENIDOS A NUESTRO SITIO WEB!</h2>
+        <section class="main_section">
+            <div class="main__contenido salidas">
+                <div class="centrar_boton">
+                    <h2>VIVÍ CÓRDOBA, DISFRUTÁ CÓRDOBA</h2>
+                    <div class="button">
+                        <a class="main_section_boton" href="{{url_for("proximas_salidas")}}">   
+                            Próximas Salidas
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="main_section quienes">
+            <h2 class="h2">¿QUIENES SOMOS?</h2>
+            <div class="main__contenido nosotros">
+                <a class="main_section_boton nosotros_btn" href="{{url_for("nosotros")}}"> 
+                    <p>+ info sobre nosotros</p>
+                </a>
+                <div class="img_1" alt="Trekking en altas cumbres"></div>
+                <div class="img_2" alt="Caminatas guiadas"></div>
+                <div class="img_4" alt="Trekking en Argentina"></div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
